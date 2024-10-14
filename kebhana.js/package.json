@@ -1,0 +1,30 @@
+{
+  "name": "@jaemin1508/kebhana.js",
+  "version": "1.0.42",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "release": "tsc && standard-version && npm publish"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaemin1508/kebhana"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "jaemin1508",
+  "license": "ISC",
+  "description": "Unofficial Node.js wrapper for KebHana Bank, located in South Korea, with TypeScript support.",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "jws": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jws": "^3.2.10",
+    "@types/node": "^22.5.5",
+    "standard-version": "^9.5.0"
+  }
+}
